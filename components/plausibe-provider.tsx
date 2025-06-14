@@ -8,8 +8,8 @@ const PLAUSIBLE_SRC = "https://plausible.io/js/script.file-downloads.hash.outbou
 
 declare global {
     interface Window {
-        plausible: ((event: string, options?: { props?: Record<string, any> }) => void) & {
-            q?: any[]
+        plausible: ((event: string, options?: { props?: Record<string, unknown> }) => void) & {
+            q?: unknown[]
         }
     }
 }
@@ -20,7 +20,7 @@ export default function PlausibleProvider() {
         if (typeof window !== "undefined" && !window.plausible) {
             window.plausible =
                 window.plausible ||
-                function () { (window.plausible.q = window.plausible.q || []).push(arguments) }
+                function (...args: unknown[]) { (window.plausible.q = window.plausible.q || []).push(args) }
         }
     }, [])
 

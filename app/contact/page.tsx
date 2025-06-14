@@ -39,7 +39,7 @@ export default function ContactPage() {
         // Simulate API call
         await new Promise((resolve) => setTimeout(resolve, 2000))
 
-        alert("Thank you for your message! We'll get back to you soon.")
+        alert("Thank you for your message! We&apos;ll get back to you soon.")
         setFormData({
             name: "",
             email: "",
@@ -59,7 +59,7 @@ export default function ContactPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
-                    <p className="text-xl text-gray-600">Get in touch with our team. We'd love to hear from you.</p>
+                    <p className="text-xl text-gray-600">Get in touch with our team. We&apos;d love to hear from you.</p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -109,7 +109,7 @@ export default function ContactPage() {
                         <Card>
                             <CardHeader>
                                 <CardTitle>Send us a Message</CardTitle>
-                                <CardDescription>Fill out the form below and we'll get back to you as soon as possible</CardDescription>
+                                <CardDescription>Fill out the form below and We&apos;ll get back to you as soon as possible</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <form onSubmit={handleSubmit} className="space-y-6">

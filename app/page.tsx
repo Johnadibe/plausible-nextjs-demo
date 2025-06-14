@@ -96,7 +96,7 @@ export default function HomePage() {
               <CardHeader>
                 <Zap className="h-12 w-12 text-blue-600 mx-auto mb-4" />
                 <CardTitle>Lightning Fast</CardTitle>
-                <CardDescription>Lightweight script that doesn't slow down your website</CardDescription>
+                <CardDescription>Lightweight script that doesn&apos;t slow down your website</CardDescription>
               </CardHeader>
             </Card>
 
@@ -163,8 +163,8 @@ export default function HomePage() {
                     ))}
                   </div>
                   <p className="text-gray-600 mb-4">
-                    "This analytics platform has completely transformed how we understand our users. The insights are
-                    incredible and the privacy focus is exactly what we needed."
+                    &quot;This analytics platform has completely transformed how we understand our users. The insights are
+                    incredible and the privacy focus is exactly what we needed.&quot;
                   </p>
                   <div className="flex items-center">
                     <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold">
