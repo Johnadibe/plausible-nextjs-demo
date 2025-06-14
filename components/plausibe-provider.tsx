@@ -3,7 +3,7 @@
 import Script from "next/script"
 import { useEffect } from "react"
 
-const PLAUSIBLE_DOMAIN = "plausible.test"
+const PLAUSIBLE_DOMAIN = "plausible-nextjs-demo.vercel.app"
 const PLAUSIBLE_SRC = "https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"
 
 declare global {
